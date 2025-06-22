@@ -1,0 +1,11 @@
+// Comenzi folosite mai des
+// `SELECT setval(pg_get_serial_sequence('"[DATA_MODEL_NAME_HERE]"', 'id'), coalesce(max(id)+1, 1), false) FROM "[DATA_MODEL_NAME_HERE]";`
+
+// netstat -ano | findstr :8000
+
+// taskkill /PID 5480 /F
+// taskkill /PID 23068 /F
+
+// SELECT setval(pg_get_serial_sequence('"Task"', 'id'), COALESCE(MAX(id)+1, 1), false) FROM "Task";
+// SELECT setval(pg_get_serial_sequence('"Proiect"', 'id'), COALESCE(MAX(id)+1, 1), false) FROM "Proiect";
+// SELECT setval(pg_get_serial_sequence('"Comentariu"', 'id'), COALESCE(MAX(id)+1, 1), false) FROM "Comentariu";

@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "numeUtilizator": "Sebi Marginean",
+    "echipaId": 3,
+    "pozaProfilUrl": "SebiMarginean.jpg",
+    "parola": "SebiMarginean",
+    "mail": "SebiMarginean@taskforge.com",
+    "functiaUtilizatorului": "CEO",
+    "echipaUtilizatorului": "Management Team"
+  },
+  {
+    "id": 2,
+    "numeUtilizator": "Stefan Darian",
+    "echipaId": 2,
+    "pozaProfilUrl": "StefanDarian.jpg",
+    "parola": "StefanDarian",
+    "mail": "StefanDarian@taskforge.com",
+    "functiaUtilizatorului": "COO/CFO",
+    "echipaUtilizatorului": "Finance Team"
+  },
+  {
+    "id": 3,
+    "numeUtilizator": "Sular Bogdan",
+    "echipaId": 3,
+    "pozaProfilUrl": "SularBogdan.jpg",
+    "parola": "SularBogdan",
+    "mail": "SularBogdan@taskforge.com",
+    "functiaUtilizatorului": "Sales executive",
+    "echipaUtilizatorului": "Sales Team"
+  },
+  {
+    "id": 4,
+    "numeUtilizator": "Apahidean Catalin",
+    "echipaId": 3,
+    "pozaProfilUrl": "ApahideanCatalin.jpg",
+    "parola": "ApahideanCatalin",
+    "mail": "ApahideanCatalin@taskforge.com",
+    "functiaUtilizatorului": "Senior Developer",
+    "echipaUtilizatorului": "Product Team"
+  },
+  {
+    "id": 5,
+    "numeUtilizator": "Melinte Cosmin",
+    "echipaId": 3,
+    "pozaProfilUrl": "MelinteCosmin.jpg",
+    "parola": "MelinteCosmin",
+    "mail": "MelinteCosmin@taskforge.com",
+    "functiaUtilizatorului": "Junior Developer",
+    "echipaUtilizatorului": "Product Team"
+  },
+  {
+    "id": 6,
+    "numeUtilizator": "Oniga Andreea",
+    "echipaId": 3,
+    "pozaProfilUrl": "OnigaAndreea.jpg",
+    "parola": "OnigaAndreea",
+    "mail": "OnigaAndreea@taskforge.com",
+    "functiaUtilizatorului": "Head of Technology",
+    "echipaUtilizatorului": "Product Team"
+  },
+  {
+    "id": 7,
+    "numeUtilizator": "Oprita Alex",
+    "echipaId": 1,
+    "pozaProfilUrl": "OpritaAlex.jpg",
+    "parola": "OpritaAlex",
+    "mail": "OpritaAlex@taskforge.com",
+    "functiaUtilizatorului": "Data Specialist",
+    "echipaUtilizatorului": "Data Team"
+  },
+  {
+    "id": 8,
+    "numeUtilizator": "Raluca Meghesan",
+    "echipaId": 1,
+    "pozaProfilUrl": "RalucaMeghesan.jpg",
+    "parola": "RalucaMeghesan",
+    "mail": "RalucaMeghesan@taskforge.com",
+    "functiaUtilizatorului": "Data Specialist",
+    "echipaUtilizatorului": "Data Team"
+  },
+  {
+    "id": 9,
+    "numeUtilizator": "Oana Toader",
+    "echipaId": 1,
+    "pozaProfilUrl": "OanaToader.jpg",
+    "parola": "OanaToader",
+    "mail": "OanaToader@taskforge.com",
+    "functiaUtilizatorului": "Senior Data Specialist",
+    "echipaUtilizatorului": "Data Team"
+  },
+  {
+    "id": 10,
+    "numeUtilizator": "Nicolae Avram",
+    "echipaId": 3,
+    "pozaProfilUrl": "NicolaeAvram.jpg",
+    "parola": "NicolaeAvram",
+    "mail": "NicolaeAvram@taskforge.com",
+    "functiaUtilizatorului": "Senior Frontend Developer",
+    "echipaUtilizatorului": "Product Team"
+  },
+  {
+    "id": 11,
+    "numeUtilizator": "Manuel Pojoga",
+    "echipaId": 3,
+    "pozaProfilUrl": "ManuelPojoga.jpg",
+    "parola": "ManuelPojoga",
+    "mail": "ManuelPojoga@taskforge.com",
+    "functiaUtilizatorului": "Junior Backend Developer",
+    "echipaUtilizatorului": "Product Team"
+  },
+  {
+    "id": 12,
+    "numeUtilizator": "Alex Iancu",
+    "echipaId": 1,
+    "pozaProfilUrl": "AlexIancu.jpg",
+    "parola": "AlexIancu",
+    "mail": "AlexIancu@taskforge.com",
+    "functiaUtilizatorului": "Data Specialist",
+    "echipaUtilizatorului": "Data Team"
+  },
+  {
+    "id": 13,
+    "numeUtilizator": "Darius Tutelea",
+    "echipaId": 1,
+    "pozaProfilUrl": "DariusTutelea.jpg",
+    "parola": "DariusTutelea",
+    "mail": "DariusTutelea@taskforge.com",
+    "functiaUtilizatorului": "Data Specialist",
+    "echipaUtilizatorului": "Data Team"
+  },
+  {
+    "id": 14,
+    "numeUtilizator": "Andreea Marginean",
+    "echipaId": 1,
+    "pozaProfilUrl": "AndreeaMarginean.jpg",
+    "parola": "AndreeaMarginean",
+    "mail": "AndreeaMarginean@taskforge.com",
+    "functiaUtilizatorului": "Data Specialist",
+    "echipaUtilizatorului": "Data Team"
+  },
+  {
+    "id": 15,
+    "numeUtilizator": "Dan Cuciureanu",
+    "echipaId": 1,
+    "pozaProfilUrl": "DanCuciureanu.jpg",
+    "parola": "DanCuciureanu",
+    "mail": "DanCuciureanu@taskforge.com",
+    "functiaUtilizatorului": "Data Specialist",
+    "echipaUtilizatorului": "Data Team"
+  },
+  {
+    "id": 16,
+    "numeUtilizator": "David Hideg",
+    "echipaId": 1,
+    "pozaProfilUrl": "DavidHideg.jpg",
+    "parola": "DavidHideg",
+    "mail": "DavidHideg@taskforge.com",
+    "functiaUtilizatorului": "Data Specialist",
+    "echipaUtilizatorului": "Data Team"
+  },
+  {
+    "id": 17,
+    "numeUtilizator": "Raul Trif",
+    "echipaId": 1,
+    "pozaProfilUrl": "RaulTrif.jpg",
+    "parola": "RaulTrif",
+    "mail": "RaulTrif@taskforge.com",
+    "functiaUtilizatorului": "Data Analyst",
+    "echipaUtilizatorului": "Data Team"
+  },
+  {
+    "id": 18,
+    "numeUtilizator": "Denis Todorut",
+    "echipaId": 1,
+    "pozaProfilUrl": "DenisTodorut.jpg",
+    "parola": "DenisTodorut",
+    "mail": "DenisTodorut@taskforge.com",
+    "functiaUtilizatorului": "Data Specialist",
+    "echipaUtilizatorului": "Data Team"
+  },
+  {
+    "id": 19,
+    "numeUtilizator": "Rares Andronache",
+    "echipaId": 1,
+    "pozaProfilUrl": "RaresAndronache.jpg",
+    "parola": "RaresAndronache",
+    "mail": "RaresAndronache@taskforge.com",
+    "functiaUtilizatorului": "Data Analyst",
+    "echipaUtilizatorului": "Data Team"
+  },
+  {
+    "id": 20,
+    "numeUtilizator": "Darius Ioica",
+    "echipaId": 1,
+    "pozaProfilUrl": "DariusIoica.jpg",
+    "parola": "DariusIoica",
+    "mail": "DariusIoica@taskforge.com",
+    "functiaUtilizatorului": "Data Specialist",
+    "echipaUtilizatorului": "Data Team"
+  }
+]

@@ -1,0 +1,103 @@
+// Generator pentru Prisma Client
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Configurarea sursei de date pentru PostgreSQL
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL") // URL-ul bazei de date este luat din .env
+}
+
+// Model pentru Proiect
+model Proiect {
+  id Int @id @default(autoincrement()) 
+  nume String 
+  descriere String? 
+  dataInceput DateTime? 
+  dataLimita DateTime?
+  taskuri Task[] // Lista de taskuri asociate cu acest proiect
+  echipeProiect EchipaProiect[] // Echipele care lucreaza la acest proiect
+}
+
+// Model pentru Utilizator
+model Utilizator {
+  id Int @id @default(autoincrement()) 
+  numeUtilizator String @unique 
+  pozaProfilUrl String? 
+  echipaId Int? 
+  parola String
+  mail String @unique
+  functiaUtilizatorului String?
+  echipaUtilizatorului String?
+
+  taskuriCreate Task[] @relation("TaskAutor") // Taskurile create de acest utilizator
+  taskuriAtribuite Task[] @relation("TaskAsignat") // Taskurile care i-au fost atribuite
+  atribuiriTask AtribuireTask[] // Lista de taskuri atribuite utilizatorului
+
+  comentarii Comentariu[] // Lista de comentarii facute de utilizator
+  echipa Echipa? @relation(fields:[echipaId], references: [id]) // Relatie optionala cu echipa
+}
+
+// Model pentru Echipa
+model Echipa {
+  id Int @id @default(autoincrement()) 
+  numeEchipa String 
+  produsAdminId Int? 
+  proiectManagerId Int? 
+  echipeProiect EchipaProiect[] // Relatia cu proiectele echipei
+  utilizatori Utilizator[] // Lista de utilizatori care fac parte din echipa
+}
+
+// Model pentru Task
+model Task {
+  id Int @id @default(autoincrement())
+  titlu String 
+  descriere String? 
+  status String? 
+  tags String?
+  prioritate String? 
+  dataInceput DateTime? 
+  dataLimita DateTime? 
+  proiectId Int 
+  points Int?
+  autorUtilizatorId Int 
+  utilizatorAsignatId Int? 
+
+  atribuiriTask AtribuireTask[] // Lista de utilizatori care au acest task atribuit
+
+  comentarii Comentariu[] // Lista de comentarii asociate task-ului
+  proiect Proiect @relation(fields: [proiectId], references: [id]) // Relatia cu proiectul
+  autor Utilizator @relation("TaskAutor", fields: [autorUtilizatorId], references: [id]) // Relatia cu autorul task-ului
+  utilizatorAsignat Utilizator? @relation("TaskAsignat", fields: [utilizatorAsignatId], references: [id]) // Relatia cu utilizatorul asignat
+}
+
+// Model pentru EchipaProiect
+model EchipaProiect {
+  id Int @id @default(autoincrement())
+  echipaId Int 
+  proiectId Int 
+  echipa Echipa @relation(fields: [echipaId], references: [id]) // Relatia cu echipa
+  proiect Proiect @relation(fields: [proiectId], references: [id]) // Relatia cu proiectul
+}
+
+// Model pentru Comentariu
+model Comentariu {
+  id Int @id @default(autoincrement()) 
+  text String 
+  taskId Int 
+  utilizatorId Int 
+
+  task Task @relation(fields: [taskId], references: [id], onDelete: Cascade) // Relatia cu taskul
+  utilizator Utilizator @relation(fields: [utilizatorId], references: [id]) // Relatia cu utilizatorul
+}
+
+// Model pentru AtribuireTask 
+model AtribuireTask {
+  id Int @id @default(autoincrement()) 
+  utilizatorId Int 
+  taskId Int 
+  utilizator Utilizator @relation(fields: [utilizatorId], references: [id]) // Relatia cu utilizatorul
+  task Task @relation(fields: [taskId], references: [id], onDelete: Cascade) // Relatia cu taskul
+}
+

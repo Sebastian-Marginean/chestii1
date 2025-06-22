@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nume": "Zeus - Management Team",
+    "descriere": "Echipa care coordoneaza viziunea si strategia companiei. Aici se iau deciziile mari legate de directia business-ului, clienti si cresterea platformei de crawling.",
+    "dataInceput": "2024-02-01T00:00:00Z",
+    "dataLimita": "2025-12-29T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "nume": "Hera - Finance Team",
+    "descriere": "Echipa responsabila cu bugetele proiectelor, costurile infrastructurii si analiza veniturilor generate de clientii care folosesc serviciile noastre de data crawling.",
+    "dataInceput": "2024-02-02T00:00:00Z",
+    "dataLimita": "2025-12-29T00:00:00Z"
+  },
+  {
+    "id": 3,
+    "nume": "Poseidon - Sales Team",
+    "descriere": "Echipa care aduce clienti noi si gestioneaza relatia cu cei existenti. Lucreaza la identificarea nevoilor de colectare automata de date si gasirea celor mai bune solutii pentru fiecare caz.",
+    "dataInceput": "2024-02-03T00:00:00Z",
+    "dataLimita": "2025-12-29T00:00:00Z"
+  },
+  {
+    "id": 4,
+    "nume": "Demetra - Product Team",
+    "descriere": "Echipa tehnica ce se ocupa de dezvoltarea platformei noastre de crawling: task management, sistemul de colectare, extragere si scalare.",
+    "dataInceput": "2024-02-04T00:00:00Z",
+    "dataLimita": "2025-12-20T00:00:00Z"
+  },
+  {
+    "id": 5,
+    "nume": "Apollo - Data Team",
+    "descriere": "Echipa care lucreaza cu datele extrase: le valideaza, curata, structureaza si transforma in informatii utile pentru clienti sau alte echipe interne.",
+    "dataInceput": "2024-02-05T00:00:00Z",
+    "dataLimita": "2025-12-27T00:00:00Z"
+  }
+]

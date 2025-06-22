@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "text": "Verifica structura site-ului si creaza crawlerul",
+    "taskId": 1,
+    "utilizatorId": 9
+  },
+  {
+    "id": 2,
+    "text": "Adauga si autorul anuntului pentru acest crawler",
+    "taskId": 2,
+    "utilizatorId": 9
+  },
+  {
+    "id": 3,
+    "text": "Verifica structura site-ului si creaza crawlerul",
+    "taskId": 3,
+    "utilizatorId": 9
+  },
+  {
+    "id": 4,
+    "text": "Verifica structura site-ului si creaza crawlerul",
+    "taskId": 4,
+    "utilizatorId": 9
+  },
+  {
+    "id": 5,
+    "text": "Pagina cere scroll pentru date, verifica structura site-ului si creaza crawlerul",
+    "taskId": 5,
+    "utilizatorId": 9
+  },
+  {
+    "id": 6,
+    "text": "Verifica structura site-ului si creaza crawlerul",
+    "taskId": 6,
+    "utilizatorId": 9
+  },
+  {
+    "id": 7,
+    "text": "Partea cu imagini e goala, verifica structura site-ului si creaza crawlerul",
+    "taskId": 7,
+    "utilizatorId": 9
+  },
+  {
+    "id": 8,
+    "text": "Sursa pare blocata temporar",
+    "taskId": 8,
+    "utilizatorId": 9
+  },
+  {
+    "id": 9,
+    "text": "Verifica structura site-ului si creaza crawlerul",
+    "taskId": 9,
+    "utilizatorId": 9
+  },
+  {
+    "id": 10,
+    "text": "Verifica structura site-ului si creaza crawlerul",
+    "taskId": 10,
+    "utilizatorId": 9
+  }
+]

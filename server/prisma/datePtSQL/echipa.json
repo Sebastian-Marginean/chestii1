@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "numeEchipa": "TaskForge Data",
+    "produsAdminId": 1,
+    "proiectManagerId": 6
+  },
+  {
+    "id": 2,
+    "numeEchipa": "TaskForge Finance",
+    "produsAdminId": 1,
+    "proiectManagerId": 2
+  },
+  {
+    "id": 3,
+    "numeEchipa": "TaskForge Developments",
+    "produsAdminId": 1,
+    "proiectManagerId": 6
+  }
+]
